@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitepace Clone</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{line-height:1.6}
+.container{width:90%;max-width:1200px;margin:auto}
+header{background:#0d3b66;color:#fff;padding:20px 0}
+nav{display:flex;justify-content:space-between;align-items:center}
+nav h2{font-weight:700}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{color:#fff;text-decoration:none}
+.btn{background:#3fa9f5;color:#fff;padding:10px 20px;border:none;border-radius:5px;display:inline-block;margin-top:10px}
+.hero{background:#0d3b66;color:#fff;padding:80px 0}
+.hero .flex{display:flex;align-items:center;justify-content:space-between}
+.hero .box{width:400px;height:250px;background:#b0c4de}
+.section{padding:60px 0}
+.flex{display:flex;gap:40px;align-items:center;justify-content:space-between}
+.box{width:350px;height:220px;background:#b0c4de}
+.light{background:#f4f4f4}
+.center{text-align:center}
+.cards{display:flex;gap:20px;justify-content:center;margin-top:30px}
+.card{border:1px solid #ddd;padding:20px;border-radius:10px;width:300px}
+.card.dark{background:#0d3b66;color:#fff}
+.footer{background:#0d3b66;color:#fff;padding:40px 0}
+.logos{display:flex;justify-content:center;gap:40px;margin-top:20px}
+.testimonials{display:flex;gap:20px;justify-content:center}
+.testimonial{background:#fff;padding:20px;border-radius:10px;width:250px}
+.blue{background:#0d3b66;color:#fff}
+.circle-dots{position:relative;width:300px;height:300px;margin:auto}
+.circle-dots span{position:absolute;width:15px;height:15px;border-radius:50%}
+.circle-dots.three span:nth-child(1){background:#ff5c5c;top:0;left:50%}
+.circle-dots.three span:nth-child(2){background:#4dabf7;bottom:0;left:20%}
+.circle-dots.three span:nth-child(3){background:#51cf66;bottom:0;right:20%}
+.circle-dots span:nth-child(1){background:#ff5c5c;top:0;left:50%}
+.circle-dots span:nth-child(2){background:#ffd93d;top:20%;right:0}
+.circle-dots span:nth-child(3){background:#4dabf7;top:60%;right:0}
+.circle-dots span:nth-child(4){background:#51cf66;bottom:0;left:50%}
+.circle-dots span:nth-child(5){background:#339af0;bottom:20%;left:0}
+.circle-dots span:nth-child(6){background:#ff922b;top:60%;left:0}
+.circle-dots::before{content:'';position:absolute;width:200px;height:200px;border:1px dashed #ccc;border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%)}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<nav>
+<h2>whitepace</h2>
+<ul>
+<li><a href="#">Products</a></li>
+<li><a href="#">Solutions</a></li>
+<li><a href="#">Resources</a></li>
+<li><a href="#">Pricing</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container flex">
+<div>
+<h1>Get More Done with whitepace</h1>
+<p>Manage your work efficiently and collaborate with your team.</p>
+<a href="#" class="btn">Try whitepace free</a>
+</div>
+<div class="box"></div>
+</div>
+</section>
+
+<section class="section light">
+<div class="container flex">
+<div>
+<h2>Project Management</h2>
+<p>Plan, track and manage your projects easily.</p>
+<a href="#" class="btn">Get Started</a>
+</div>
+<div class="box"></div>
+</div>
+</section>
+
+<section class="section">
+<div class="container flex">
+<div class="circle-dots three">
+<span></span><span></span><span></span>
+</div>
+<div>
+<h2>Work together</h2>
+<p>Collaborate with your team seamlessly.</p>
+<a href="#" class="btn">Learn More</a>
+</div>
+</div>
+</section>
+
+<section class="section blue">
+<div class="container flex">
+<div>
+<h2>Use as Extension</h2>
+<p>Integrate with your favorite tools.</p>
+<a href="#" class="btn">Let's Go</a>
+</div>
+<div class="box"></div>
+</div>
+</section>
+
+<section class="section light">
+<div class="container flex">
+<div class="box"></div>
+<div>
+<h2>Customise it to your needs</h2>
+<p>Make it work the way you want.</p>
+<a href="#" class="btn">Learn More</a>
+</div>
+</div>
+</section>
+
+<section class="section center">
+<h2>Choose Your Plan</h2>
+<div class="cards">
+<div class="card">
+<h3>Free</h3>
+<h1>$0</h1>
+<p>Basic features</p>
+</div>
+<div class="card dark">
+<h3>Personal</h3>
+<h1>$11.99</h1>
+<p>Advanced features</p>
+</div>
+<div class="card">
+<h3>Organization</h3>
+<h1>$49.99</h1>
+<p>All features</p>
+</div>
+</div>
+</section>
+
+<section class="section blue center">
+<h2>Your work, everywhere you are</h2>
+<p>Access your data anytime anywhere</p>
+<a href="#" class="btn">Try Today</a>
+</section>
+
+<section class="section light center">
+<h2>Our sponsors</h2>
+<div class="logos">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="40">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" width="40">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="100">
+</div>
+</section>
+
+<section class="section blue center">
+<h2>Try Whitepace today</h2>
+<p>Start your journey now</p>
+<a href="#" class="btn">Get Started</a>
+</section>
+
+<footer class="footer center">
+<p>© 2026 Whitepace. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
